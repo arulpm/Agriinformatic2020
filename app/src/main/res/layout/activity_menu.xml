@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo Selamat Datang"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arul"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/arul"
+        android:layout_toRightOf="@+id/welcome"
+        android:layout_marginLeft="75dp"/>
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/menu1"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Counter Kehadiran"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop ="160dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/menu2"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya/Anggota"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop ="270dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/menu3"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Gallery Kegiatan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop ="380dp"/>
+
+
+
+</RelativeLayout>

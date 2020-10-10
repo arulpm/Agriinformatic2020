@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".AboutmeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageView
+        android:id="@+id/sayaIV"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/saya"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anggota"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@+id/sayaIV"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="-20dp"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/sayaIV"
+        android:layout_margin="40dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : Hasrul Malik Putra Mashun"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angkatan : 57"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang : "
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nama saya Hasrul Malik Putra Mashun, asal dari Provinsi Bengkulu, Sekolah di SMAN 10 Kaur Pentagon"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"/>
+
+        
+        
+    </LinearLayout>
+
+
+
+</RelativeLayout>
